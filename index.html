@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple lit table</title>
+</head>
+<body>
+    <simple-lit-table
+     config='[
+       {"content": "email", "title": "Email"},
+       {"content": "name", "title": "Name"},
+       {"content": "age", "title": "Age"}
+      ]'
+     data='[
+       {
+        "name": "Denis",
+        "age": 24,
+        "email": "denis@gmail.com"
+       },
+      
+       {
+        "name": "Alan",
+        "age": 33,
+        "email": "alan@hotmail.com"
+       },
+       {
+        "name": "Steve",
+        "age": 28,
+        "email": "steve@gmail.com"
+       }
+      ]'>
+  </simple-lit-table>
+    
+  <script type="module" src="./simple-lit-table.js"></script>
+</body>
+</html>
